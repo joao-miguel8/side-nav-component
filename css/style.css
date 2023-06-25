@@ -1,0 +1,86 @@
+
+
+.side-navbar {
+  border: 1px solid red;
+max-width: 240px;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+/* --------------- */
+
+.side-navbar__logo-and-search {
+border: 1px solid #ffa500;
+}
+
+/* --------------- */
+
+.left-side-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-logo-container {
+  border: 1px solid purple;
+  display: flex;
+}
+
+.side-navbar__nav-links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  /* border: 4px solid green; */
+  overflow-y: auto;
+}
+
+
+.nav-links {
+  border: 1px solid rgb(64, 0, 255);
+  display: flex;
+  align-items: center;
+
+}
+
+
+.nav-links-project-links {
+  border: 1px solid rgb(251, 255, 192);
+}
+
+.project-links {
+  border: 1px solid orange;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.project-links h5 {
+  text-decoration: none;
+  font-size: .8rem;
+} 
+
+.project-links span {
+  width: 4px;
+  height: 4px;
+  background-color: black;
+} 
+
+.projects__title-container {
+  display: flex;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* --------------- */
+
+.side-navbar__account-profile-container {
+  border: 1px solid purple;
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+}
